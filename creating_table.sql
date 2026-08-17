@@ -1,0 +1,9 @@
+use company;
+CREATE TABLE employees (
+id INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100),
+department VARCHAR(50),
+salary DECIMAL(10,2)
+);
+
+SELECT * FROM employees;
