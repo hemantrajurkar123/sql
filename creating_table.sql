@@ -1,3 +1,4 @@
+-- Resource: Tutorials point
 use company;
 CREATE TABLE employees (
 id INT PRIMARY KEY AUTO_INCREMENT,

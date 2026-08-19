@@ -18,3 +18,7 @@ VALUES
 ("Anushree","Software",40000),
 ("Sagar","Coding",150000),
 ("Pooja","Testing",35000);
+
+INSERT INTO employees (name,department,salary)
+VALUES 
+("Rohit","Marketing",60000);
