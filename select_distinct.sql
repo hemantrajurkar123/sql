@@ -23,4 +23,9 @@ It also should be high to low
 SELECT DISTINCT amount
 FROM payment
 ORDER BY amount DESC;
+
+-- Limit clause- Limits the number of rows to be displayed in the output
+SELECT * FROM rental
+ORDER BY rental_date
+LIMIT 10; -- Shows first 10 rows
  
